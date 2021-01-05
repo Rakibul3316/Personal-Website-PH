@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Alegreya Sans", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+section {
+  height: 550px;
+  padding-top: 40px;
+}
+
+p {
+  color: darkgray;
+}
+
+.top-area {
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.top-left-half {
+  padding-top: 105px;
+  width: 40%;
+  float: left;
+  margin-left: 13%;
+  padding-left: 2%;
+}
+
+.top-right-half {
+  width: 40%;
+  float: left;
+}
+
+.top-right-half img {
+  width: 80%;
+}
+
+.pink-highlight {
+  display: block;
+  color: #ef296a;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.link-btn {
+  text-decoration: none;
+  font-weight: 700;
+  background-image: linear-gradient(270deg, #ef296a, #f56b99);
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 7px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Biography-Area */
+
+.biography-area {
+  background-image: url("images/biography-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bio-left-half {
+  width: 40%;
+  float: left;
+  margin-left: 13%;
+  padding-left: 2%;
+}
+
+.bio-left-half img {
+  width: 75%;
+}
+
+.bio-right-half {
+  padding-top: 100px;
+  width: 35%;
+  float: left;
+  margin-left: -6%;
+}
+
+.bio-right-half h2 {
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.latest-area {
+  text-align: center;
+  padding: 100px 0px;
+  background-image: url("images/latest-work-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+.latest-area h2 {
+  font-size: 45px;
+}
+
+.latest-img img {
+  width: 300px;
+  padding-right: 20px;
+}
+
+.client-area {
+  text-align: center;
+  background-image: url("images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.client-area h2 {
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
+.client-area p {
+  color: #555;
+  font-size: 12px;
+}
+
+.client-speach {
+  width: 450px;
+  margin: auto;
+}
+
+.client-speach p {
+  color: #000;
+  font-size: 18px;
+}
+
+.colored-area {
+  color: #fff;
+  background-image: linear-gradient(270deg, #ef296a, #f56b99);
+  width: 700px;
+  margin: auto;
+  padding: 25px 0px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.colored-area p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.colored-area h3 {
+  font-size: 30px;
+  line-height: 1;
+}
+
+.footer p {
+  margin-top: 150px;
+  font-size: 20px;
+}
